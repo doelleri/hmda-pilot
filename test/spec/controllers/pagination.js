@@ -20,7 +20,7 @@ describe('Controller: PaginationCtrl', function () {
 
         $controller('PaginationCtrl', {
             $scope: scope,
-            $element: angular.element('<pagination><table></table></pagination>')
+            $element: angular.element('<div pagination><table></table></div>')
         });
 
         $timeout.flush();

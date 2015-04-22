@@ -8,9 +8,9 @@
  * @requires pagination
  *
  * @example
- * <pagination>
+ * <div pagination>
  *   <paginzation-size></pagination-size>
- * </pagination>
+ * </>
  */
 module.exports = /*@ngInject*/ function () {
 

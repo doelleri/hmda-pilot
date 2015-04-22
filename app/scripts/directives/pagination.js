@@ -9,9 +9,7 @@
 module.exports = /*@ngInject*/ function () {
 
     return {
-        restrict: 'E',
-        template: '<div ng-transclude></div>',
-        transclude: true,
+        restrict: 'A',
         controller: 'PaginationCtrl'
     };
 };

@@ -1,6 +1,6 @@
 <p class="instructions">Please review all of the data listed below. You must review the entire list <em>{{error.errors.length | entries}}</em> and verify if these should be updated automatically. If any of the data is incorrect, please correct the errors in your system of record and revalidate the file.</p>
 
-<pagination>
+<div pagination>
 <pagination-size></pagination-size>
 
 <table id="Q029" class="error-detail row-hover" role="grid" ng-if="error">
@@ -32,6 +32,6 @@
 </table>
 
 <pagination-nav></pagination-nav>
-</pagination>
+</div>
 
 <p ng-if="!error">No errors found.</p>
